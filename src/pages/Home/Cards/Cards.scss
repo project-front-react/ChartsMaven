@@ -1,0 +1,48 @@
+@import "../../../scss/base.scss";
+
+.card-grid {
+  margin-top: 1rem;
+  .colCard {
+    @include midmobile {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 1rem 0;
+    }
+  }
+
+  .card-item {
+    .image-wrapper {
+      height: 230px;
+
+      @include midmobile {
+        width: 350px;
+      }
+
+      @include smallmobile {
+        width: 300px;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .card-title {
+      padding: 1rem;
+      text-align: center;
+
+      h2 {
+        @include fontBold(1.5rem, 1rem, $bg-color);
+        margin-bottom: unset;
+
+        @include mobile {
+          font-size: 1rem;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}

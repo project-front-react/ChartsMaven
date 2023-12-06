@@ -1,0 +1,258 @@
+@import "../../../scss/base.scss";
+
+.aboutdataContainer {
+    margin-top: 2rem;
+
+    #box {
+        height: 70px;
+        width: 70px;
+        position: relative;
+        border-top: 2px solid #0004ff;
+        background: #cccaca;
+        rotate: 180deg;
+        border-bottom: 2px solid black;
+        border-right: 2px solid;
+    }
+
+    #borderLeft {
+        border-left: 2px solid #0004ff;
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+    }
+
+
+
+    .aboutData {
+        display: flex;
+        flex-direction: row;
+
+        @include mobile {
+            flex-direction: column;
+        }
+
+        // justify-content: space-between;
+
+        .aboutSection {
+            width: 60%;
+            display: flex;
+
+            @include mobile {
+                width: 100%;
+                justify-content: center;
+            }
+
+            @include midmobile {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+
+            .count-container {
+                position: relative;
+
+                .count_img {
+                    height: 250px;
+                    width: 250px;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+                .count_text {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 6rem;
+                    color: $bg-color;
+                    font-weight: 700;
+                }
+            }
+
+            .aboutBox {
+                // background-color: #E8F4FF;
+                // border-top: 5px solid $bg-color;
+                height: 160px;
+                width: 30%;
+                // color: $bg-color;
+                // height: 70px;
+                // width: 70px;
+                position: relative;
+                border-top: 5px solid $bg-color;
+                background: #cccaca;
+                // rotate: 180deg;
+                border-bottom: 5px solid $bg-color;
+                border-left: 5px solid $bg-color;
+
+                .border_right {
+                    border-right: 5px solid $bg-color;
+                    position: absolute;
+                    top: 50%;
+                    bottom: 0;
+                }
+
+                @include tablet {
+                    height: 140px;
+                }
+
+                @include mobile {
+                    width: 25%;
+
+                }
+
+                @include midmobile {
+                    height: 140px;
+                    width: 30%;
+                }
+
+                @include smallmobile {
+                    height: 120px;
+                    width: 35%;
+                }
+
+                p {
+                    font-size: 5em;
+                display: flex;
+                    align-items: center;
+                justify-content: center;
+
+                    margin: 0px;
+
+                    @include tablet {
+                        font-size: 4.5em;
+                    }
+
+                }
+            }
+
+            .sectionTwo {
+                display: flex;
+                width: 40%;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 3rem;
+
+                @include tablet {
+                    margin-left: 2rem;
+                    // justify-content: unset;
+                }
+
+                @include midmobile {
+                    margin-top: 2rem;
+                    width: 100%;
+                justify-content: center;
+                display: flex;
+                    align-items: center;
+                }
+
+
+                div {
+                    color: $bg-color;
+                    font-size: 1.5em;
+                    font-weight: 700;
+
+                    @include tablet {
+                        font-size: 1.1em;
+                    }
+
+                    @include midmobile {
+                        font-size: 1.3em;
+                    }
+
+                    @include smallmobile {
+                        font-size: 1em;
+                    }
+                }
+
+                p {
+                    color: #009444;
+                    font-size: 1.2em;
+                    font-weight: 700;
+
+                    @include tablet {
+                        font-size: 1.1em;
+                    }
+
+                    @include midmobile {
+                        font-size: 1.2em;
+                    }
+
+                    @include smallmobile {
+                        font-size: 0.9em;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .sectionThree {
+        width: 30%;
+
+        @include mobile {
+            width: 80%;
+            display: flex;
+            margin-top: 2rem;
+            padding: 10px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @include smallmobile {
+            margin-top: 0px;
+        }
+
+        @include midmobile {
+            width: 100%;
+        }
+
+        p {
+            color: $bg-color;
+            font-size: 1.2em;
+
+            @include tablet {
+                font-size: 1em;
+            }
+
+            @include mobile {
+                width: 80%;
+                display: flex;
+            }
+
+            @include smallmobile {
+                font-size: 0.9em;
+            }
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            color: $color-primary;
+            font-weight: 500;
+            font-size: 1.2em;
+
+            @include tablet {
+                font-size: 1em;
+            }
+
+            @include smallmobile {
+                font-size: 0.9em;
+            }
+        }
+
+        img {
+            height: 20px;
+
+            @include tablet {
+                height: 15px;
+            }
+
+            @include smallmobile {
+                height: 12px;
+            }
+        }
+    }
+}

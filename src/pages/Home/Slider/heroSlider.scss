@@ -1,0 +1,88 @@
+@import '../../../scss/base.scss';
+
+.slider-image {
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include tablet {
+        height: 400px;
+
+    }
+
+    @include mobile {
+        height: 400px;
+    }
+
+    @include midmobile {
+        height: 400px;
+    }
+
+    @include smallmobile {
+        height: 400px;
+    }
+
+    .slider-content {
+        width: 100%;
+
+        // max-width: 90%;
+        @include mobile {
+            padding: 1rem;
+        }
+
+        .title-wrapper {
+            .slider-title {
+                @include fontExtraBold(3rem, 4rem, $white-color);
+
+                @include mobile {
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+
+        .slider-description {
+            @include fontRegular(1.5rem, 2rem, $white-color);
+
+            @include mobile {
+                font-size: 1rem;
+                line-height: 1.3rem;
+            }
+
+        }
+
+        .button-wrapper {
+            margin-top: 2rem;
+            width: 100%;
+            text-align: end;
+            padding: 0 1rem;
+
+            button {
+                padding: 1rem 2rem;
+                background: $color-primary ;
+                color: $white-color;
+                @include fontExtraBold(1.5rem, 1.7rem, $white-color);
+
+                @include mobile {
+                    padding: 0.5rem 1.5rem;
+                    font-size: 1rem;
+                    line-height: normal;
+                }
+
+                &:hover {
+                    box-shadow: 0px 10px 10px rgba($color-primary, 0.2);
+                }
+            }
+
+            @include mobile {
+                text-align: start;
+                padding: 0;
+            }
+        }
+    }
+}

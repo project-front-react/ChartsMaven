@@ -1,0 +1,250 @@
+@import '../../../scss/base.scss';
+
+.advt-box {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: $bg-color;
+    margin-bottom: -7rem;
+    display: flex;
+    position: relative;
+
+    @include mobile {
+        padding: 1.5rem;
+    }
+
+    .advtLeft {
+        width: 70%;
+
+        @include mobile {
+            width: 100%;
+        }
+
+        .advt-title {
+            border-bottom: 1px solid #FFFFFF;
+
+            .advt-download {
+                color: $logo-color;
+                font-size: 3rem;
+                font-weight: 900;
+                margin-bottom: 2rem;
+                line-height: 45px;
+
+                @include mobile {
+                    font-size: 2rem;
+                    line-height: 35px;
+                    margin-bottom: 1.7rem;
+                }
+
+                @include smallmobile {
+                    font-size: 1.6rem;
+                    line-height: 25px;
+                    margin-bottom: 1.2rem;
+                }
+            }
+        }
+
+        .btnContainer {
+            display: flex;
+            // justify-content: center;
+            // align-items: baseline;
+            // max-width: 300px;
+            width: 100%;
+            margin-top: 2rem;
+
+            .advt-btn-btn {
+                cursor: pointer;
+                color: $white-color;
+                border-radius: 15px;
+                max-width: 250px;
+                width: 100%;
+                padding: 10px 5px;
+                background-color: $color-primary;
+                display: flex;
+                align-items: center;
+                @include tablet {
+                    max-width: 230px;
+                    border-radius: 5px;
+                }
+                @include mobile {
+                    padding: 10px;
+                    max-width: 200px;
+                }
+
+                @include smallmobile {
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+
+                .imgContainer {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 10px;
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    @include tablet{
+                        height: 40px;
+                        width: 40px;
+                    }
+                    @include mobile {
+                        height: 30px;
+                        width: 30px;
+                    }
+
+                    @include smallmobile {
+                        height: 20px;
+                        width: 20px;
+                    }
+
+                    img {
+                        object-fit: contain;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+                .btn-title {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    @include tablet{
+                        font-size: 1.2rem;
+                    }
+                    @include mobile {
+                        font-size: 1rem;
+                    }
+
+                    @include midmobile {
+                        font-size: 0.9rem;
+                    }
+
+                    @include smallmobile {
+                        font-size: 0.7rem;
+                    }
+
+                    h6 {
+                        font-size: 2rem;
+                        font-weight: 900;
+                        @include tablet{
+                            font-size: 1.5rem;
+                        }
+                        @include mobile {
+                            font-size: 1.3rem;
+                        }
+
+                        @include midmobile {
+                            font-size: 1rem;
+                        }
+
+                        @include smallmobile {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+
+            .advt-btn-btnApple {
+                cursor: pointer;
+                color: $white-color;
+                border-radius: 15px;
+                max-width: 250px;
+                width: 100%;
+                margin-left: 1rem;
+                padding: 10px 5px;
+                background-color: black;
+                display: flex;
+                align-items: center;
+                @include tablet {
+                    max-width: 230px;
+                    border-radius: 5px;
+                }
+                @include mobile {
+                    padding: 10px;
+                    max-width: 200px;
+                }
+
+                @include smallmobile {
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+
+                .imgContainer {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 10px;
+                    @include tablet{
+                        height: 40px;
+                        width: 40px;
+                    }
+                    @include mobile {
+                        height: 30px;
+                        width: 30px;
+                    }
+
+                    @include smallmobile {
+                        height: 20px;
+                        width: 20px;
+                    }
+
+                    img {
+                        object-fit: contain;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+                .btn-title {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    @include tablet{
+                        font-size: 1.2rem;
+                    }
+                    @include mobile {
+                        font-size: 1rem;
+                    }
+
+                    @include midmobile {
+                        font-size: 0.9rem;
+                    }
+
+                    @include smallmobile {
+                        font-size: 0.7rem;
+                    }
+
+                    h6 {
+                        font-size: 2rem;
+                        font-weight: 900;
+                        @include tablet{
+                            font-size: 1.5rem;
+                        }
+                        @include mobile {
+                            font-size: 1.3rem;
+                        }
+
+                        @include midmobile {
+                            font-size: 1rem;
+                        }
+
+                        @include smallmobile {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .advtRight {
+        max-width: 280px;
+
+        @include mobile {
+            display: none;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+}

@@ -1,0 +1,290 @@
+@import "../../scss/base.scss";
+
+.header-profile {
+  .error {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 8px;
+    @include fontRegular(1rem, 5px, $color-primary);
+    @include midmobile{
+        margin-left: 20px;
+    }
+    @include smallmobile{
+        margin-left: 10px;
+    }
+  }
+  .cover-photo {
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    // background-size: 100% 100%;
+    z-index: 9999;
+    @include midmobile{
+      min-height: 235px;
+    }
+    @include smallmobile{
+      min-height: 170px;
+    }
+    .edit-cover {
+      position: absolute;
+      bottom: 1rem;
+      right: 0;
+      margin-right: 10px;
+      background: $bg-color;
+      border-radius: 50%;
+      height: 30px;
+      width: 30px;
+      padding: 0.25rem;
+      cursor: pointer;
+      z-index: 1;
+
+      img {
+        height: 11px;
+        position: relative;
+        top: 0.25rem;
+        left: 0.35rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: baseline;
+      }
+    }
+  }
+
+  .profile-content {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: -95px;
+    margin-left: 4%;
+
+    @include mobile {
+      flex-direction: column;
+      margin-left: 0;
+      align-items: center;
+    }
+
+    .image-section {
+      text-align: center;
+
+      .image-uploader {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 99999;
+        @include mobile{
+          height: 150px;
+        }
+        .preview-image-wrapper {
+          border: 3px solid $logo-color;
+          width: 180px;
+          height: 180px;
+          overflow: hidden;
+          border-radius: 50%;
+          @include mobile{
+            width: 140px;
+            height: 140px;
+          }
+          .preview-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .upload-placeholder {
+          cursor: pointer;
+          position: absolute;
+          bottom: 25%;
+          right: 18%;
+          transform: translate(50%, 50%);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background: $bg-color;
+          height: 30px;
+          width: 30px;
+          border-radius: 50%;
+          justify-content: center;
+          z-index: 2;
+
+          img {
+            margin-bottom: 0rem;
+          }
+        }
+      }
+
+      p {
+        cursor: pointer;
+        margin: 0.5rem 0;
+        text-align: center;
+        @include fontBold(1.25rem, 1.5rem, $color-primary);
+
+        img {
+          margin-right: 1rem;
+          vertical-align: baseline;
+        }
+      }
+    }
+
+    .profile-details {
+      margin-left: 2rem;
+
+      @include mobile {
+        margin-left: 0;
+      }
+
+      .name {
+        display: flex;
+        align-items: center;
+
+        @include mobile {
+          justify-content: center;
+          margin-bottom: 1rem;
+        }
+        h5 {
+          @include fontBold(2.5rem, 3rem, $logo-color);
+          @include mobile {
+            text-align: center;
+          }
+          @include mobile {
+            font-size: 1.5rem;
+            line-height: normal;
+            margin-bottom: 0;
+          }
+          margin-right: 0.5rem;
+        }
+        span {
+          cursor: pointer;
+          -ms-word-break: break-all;
+          word-break: break-all;
+          white-space: pre-wrap;
+        }
+      }
+      h6 {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 1rem;
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+    .submit_changes {
+      max-width: 192px;
+      margin: 0.6rem;
+
+      button {
+        background: $color-primary;
+        border: none;
+      }
+    }
+  }
+}
+.profile_tabs {
+  padding: 0 20px;
+  .main-profile {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 4rem;
+
+    @include mobile {
+      flex-direction: column;
+      position: relative;
+      top: -80px;
+    }
+
+    .side-panel {
+      flex: 2;
+      display: flex;
+      @include mobile{
+        display: none;
+      }
+      .side-nav {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0px;
+
+        @include mobile {
+          // display: none;
+          flex-direction: row;
+          overflow: auto;
+          white-space: nowrap;
+          -ms-overflow-style: none;
+          /* Internet Explorer 10+ */
+          scrollbar-width: none;
+
+          &::-webkit-scrollbar {
+            display: none;
+            /* Safari and Chrome */
+          }
+        }
+
+        padding-left: unset;
+
+        .nav-items {
+
+          display: flex;
+          align-items: center;
+          border: 3px solid $bg-color;
+          border-radius: 20px;
+          padding: 1rem;
+          margin: 1rem;
+          cursor: pointer;
+
+          .icon {
+            margin-right: 0.25rem;
+            
+            img {
+              vertical-align: bottom;
+            }
+
+            svg{
+              font-size: 25px;
+              color: $bg-color;
+            }
+          }
+
+          @include fontBold(1rem, 1.25rem, $logo-color);
+
+          &:hover {
+            background: $light-blue;
+          }
+        }
+
+        .active {
+          background: $light-blue;
+        }
+      }
+    }
+
+    .tab-pane {
+      flex: 5;
+      .submit_changes {
+        max-width: 192px;
+        margin: 1rem 0;
+
+        button {
+          background: $color-primary;
+          border: none;
+        }
+      }
+    }
+  }
+}
+.EventNone {
+  pointer-events: none !important;
+}
+
+.editBtnContent {
+  width: 20px;
+}

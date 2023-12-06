@@ -1,0 +1,154 @@
+@import "../../scss/base.scss";
+
+.title-modal {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: 900;
+  font-family: "Satoshi-Bold";
+}
+
+.modal-main {
+  .modal_img {
+    width: 50%;
+
+    @include tablet {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .ImageSection {
+      @include tablet {
+        max-width: 300px;
+        width: 100%;
+      }
+
+      @include midmobile {
+        max-width: 180px;
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .subscription-detail-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+    @include tablet {
+      width: 100%;
+      font-size: 24px;
+    }
+
+    .subscription-modal {
+      font-size: 30px;
+      letter-spacing: 1.5px;
+      text-align: center;
+      font-weight: 900;
+
+      @include mobile {
+        font-size: 20px;
+      }
+    }
+
+    .sub-title-subscription {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 24px;
+      color: $logo-color;
+      text-align: center;
+      margin: 10px 0;
+
+      @include midmobile {
+        line-height: 18px;
+        font-size: 18px;
+        margin: 5px 0;
+      }
+    }
+
+    .button-box-sub {
+      width: 100%;
+      margin: 30px 0;
+      gap: 15px;
+      display: flex;
+      justify-content: center;
+
+      @include midmobile {
+        margin: 15px 0;
+        font-size: 16px;
+      }
+
+      button {
+        padding: 12px 20px;
+        border-radius: 5px;
+      }
+
+      .cancel-btn {
+        background-color: $color-primary;
+        color: $white-color;
+        width: 45%;
+        padding: 20px;
+
+        @include midmobile {
+          width: 40%;
+          padding: 10px;
+        }
+      }
+
+      .login-btn {
+        background-color: $logo-color;
+        color: $white-color;
+        width: 45%;
+        padding: 20px;
+
+        @include midmobile {
+          width: 40%;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+.sub-title-green {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $logo-color;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.button-box {
+  margin: 30px 0;
+  gap: 15px;
+
+  button {
+    padding: 12px 20px;
+    border-radius: 5px;
+  }
+
+  .cancel-btn {
+    background-color: $color-primary;
+    color: $white-color;
+  }
+
+  .delete-btn {
+    background-color: $bg-color;
+    color: $white-color;
+  }
+}
+#detModalData{
+  display: flex;
+  @include tablet{
+    display: block;
+  }
+}

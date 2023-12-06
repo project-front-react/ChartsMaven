@@ -1,0 +1,39 @@
+@import "../../../scss/base.scss";
+form{
+  display: flex;
+  flex-direction: column;
+
+  .error {
+    // position: relative;
+    // top: 0.25rem;
+    display: flex;
+    width: 100%;
+    @include fontRegular(1rem, 1.25rem, $color-primary);
+  }
+}
+.otpInput {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  input {
+    border: none;
+    width: calc(100% / 4);
+    // padding: 5px 1px;
+    margin: 5px;
+    outline: none;
+    text-align: center;
+    height: 60px;
+    @include fontMedium(1.25rem, 1.5rem, "");
+    @include mobile{
+      height: 70px;
+    }
+    @include smallmobile{
+      height: 55px;
+    }
+
+    &:nth-child(1) {
+      margin-left: unset;
+    }
+  }
+}

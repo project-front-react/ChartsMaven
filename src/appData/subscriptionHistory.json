@@ -1,0 +1,30 @@
+{
+    "data": [
+        {
+            "subscription_status": "active",
+            "subscription_month": "Activated Subscription (1 Year)",
+            "plan_details": [
+                {
+                    "heading": "Amount Paid",
+                    "value": "1000"
+                },
+                {
+                    "heading": "Subscription Validity",
+                    "value": "01 March 2023 -01 March 2024"
+                },
+                {
+                    "heading": "Invoice No.",
+                    "value": "01 March 2023 -01 March 2024"
+                },
+                {
+                    "heading": "Paid On:",
+                    "value": "01 March 2023"
+                },
+                {
+                    "heading": "Payment ID:",
+                    "value": "01 March 2023"
+                }
+            ]
+        }
+    ]
+}

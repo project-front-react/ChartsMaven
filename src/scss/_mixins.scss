@@ -1,0 +1,133 @@
+@mixin xxsMobile {
+    @media (max-width: #{$xxs-min-width}) {
+        @content;
+    }
+}
+
+@mixin smMobile {
+    @media (max-width: #{$xs-min-width}) {
+        @content;
+    }
+}
+
+@mixin midmobile {
+    @media (max-width: #{$xxs-max-width}) {
+        @content;
+    }
+}
+
+@mixin smallmobile {
+    @media (max-width: #{$xxxs-max-width}) {
+        @content;
+    }
+}
+
+// upTo 767px breakpoint
+@mixin mobile {
+    @media (max-width: #{$xs-max-width}) {
+        @content;
+    }
+}
+
+// tablet view
+@mixin tablet {
+    @media (max-width: #{$sm-max-width}) {
+        @content;
+    }
+}
+
+//max-1440px
+@mixin midlarge {
+    @media(max-width:#{$lg-max-width}) {
+        @content;
+    }
+}
+
+// from 767px - 1024px
+@mixin tabletNew {
+    @media (min-width: #{$sm-min-width}) and (max-width:#{$md-max-width}) {
+        @content;
+    }
+}
+
+@mixin desktopsmall {
+    @media (min-width: #{$md-min-width}) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (max-width: #{$mdd-max-width}) {
+        @content;
+    }
+}
+
+// 1200px
+@mixin desktop {
+    @media (min-width: #{$lg-min-width}) {
+        @content;
+    }
+}
+
+// 1440px breakpoint
+@mixin desktoplarge {
+    @media (min-width: #{$xlg-min-width}) {
+        @content;
+    }
+}
+
+// extra large desktops
+@mixin desktopxtralarge {
+    @media (min-width: #{$xxlg-min-width}) {
+        @content;
+    }
+}
+
+// extra extra large desktops 1920
+@mixin desktopxxtralarge {
+    @media (min-width: #{$xxlg-max-width}) {
+        @content;
+    }
+}
+
+//largee screen
+@mixin largescreen {
+    @media (max-width: #{$xlg-max-width}) {
+        @content;
+    }
+}
+@mixin fontBold($size,$line-height,$color){
+    font-family: $satoshi-regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $size;
+    line-height: $line-height;
+    color:$color;
+}
+@mixin fontExtraBold($size,$line-height,$color){
+    font-family: $satoshi-regular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: $size;
+    line-height: $line-height;
+    color:$color;
+}
+@mixin fontRegular($size,$line-height,$color){
+    font-family: $satoshi-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $size;
+    line-height: $line-height;
+    color:$color;
+
+}
+
+@mixin fontMedium($size,$line-height,$color){
+    font-family: $satoshi-regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $size;
+    line-height: $line-height;
+    color:$color;
+
+}

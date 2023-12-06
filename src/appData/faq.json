@@ -1,0 +1,89 @@
+{
+    "status": true,
+    "data": [
+        {
+            "created_datetime": "2023-04-26T10:25:20.455586Z",
+            "is_active": true,
+            "uuid": "9692ac7e-d92d-4d8d-a710-d1131d07170a",
+            "question": "Which video article is best?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:24:44.531393Z",
+            "is_active": true,
+            "uuid": "8b166075-fb18-4f7a-b325-b045e265675f",
+            "question": "Which article is best?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:24:28.941909Z",
+            "is_active": true,
+            "uuid": "368b624f-ddd3-4386-b9e2-9405e9b30cf8",
+            "question": "What is finance?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:24:15.764306Z",
+            "is_active": true,
+            "uuid": "6a3630d3-bd2f-4111-b14b-9d67a658d7b4",
+            "question": "Best article for finance",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:23:25.675918Z",
+            "is_active": true,
+            "uuid": "c262f82f-9878-437a-98d3-c684ffb447d8",
+            "question": "Where can I get some info?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:23:00.645965Z",
+            "is_active": true,
+            "uuid": "4108ac9a-8e5a-4c28-a3c8-4aac45a098ba",
+            "question": "Section 1.10.32 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:22:40.620222Z",
+            "is_active": true,
+            "uuid": "3d8cb0da-1532-4d92-840b-a5adedd5a6ed",
+            "question": "The standard Lorem Ipsum passage, used since the 1500s",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:22:27.029976Z",
+            "is_active": true,
+            "uuid": "27aa8785-e107-4171-9cff-cfda20f3d09c",
+            "question": "Where does it come from?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:22:12.989910Z",
+            "is_active": true,
+            "uuid": "fc3fa1a7-05c9-4349-aa0d-188b547e2530",
+            "question": "Where can I get some?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:21:53.063233Z",
+            "is_active": true,
+            "uuid": "cf40ad10-7199-4e05-91e0-a1852a9ec5c7",
+            "question": "Why do we use it?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:21:19.801828Z",
+            "is_active": true,
+            "uuid": "c4f12bb5-046a-429f-af47-b52efc6c4017",
+            "question": "Lorem Ipsum is simply dummy?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "created_datetime": "2023-04-26T10:19:46.786838Z",
+            "is_active": true,
+            "uuid": "5cecbe1f-a6c3-4568-abca-c25ab4f3d8a1",
+            "question": "What is charts maven?",
+            "answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+@import "../../scss/base.scss";
+
+.sectionTitle-container {
+  
+  .section-title {
+    margin-bottom: 0 !important;
+    text-transform: capitalize;
+    @include fontBold(2rem, 3rem, $bg-color);
+    @include mobile {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+  }
+  .aboutTitle{
+    display: inline-block;
+    // width: 200px;
+    // text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    @include smallmobile{
+      width: 200px;
+    }
+  }
+
+  .text-underline {
+    &::after {
+      background: none repeat scroll 0 0 $logo-color;
+      bottom: -10px;
+      content: "";
+      display: block;
+      height: 3px;
+      position: relative;
+      width: 108px;
+    }
+  }
+
+  .subtitle {
+    @include fontMedium(1.25rem, 1.6rem, $logo-color);
+    @include mobile {
+      font-size: 1rem;
+      line-height: 1.2rem;
+      margin-top: 10px;
+    }
+  }
+}

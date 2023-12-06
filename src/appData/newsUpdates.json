@@ -1,0 +1,267 @@
+{
+    "status": true,
+    "total_page": 1,
+    "data": [
+        {
+            "id": 5706,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Reports"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": null,
+            "modified_by": null,
+            "created_datetime": "2023-05-01T12:06:35.042608Z",
+            "modified_datetime": "2023-05-01T12:06:35.042633Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "628cda35-791a-47c0-8be2-398bd9f69f08",
+            "title": "testingggg",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/Screenshot_from_2023-03-10_16-13-55.png",
+            "premium": false,
+            "summary": "<p>sdadada</p>\r\n\r\n<p>asd</p>\r\n\r\n<p>ad</p>\r\n\r\n<p>adasd</p>\r\n\r\n<p>asd</p>\r\n\r\n<p>ad</p>\r\n\r\n<p>sddddddddddddddddddddddddddddddasdadadsad</p>\r\n\r\n<p>asd</p>\r\n\r\n<p>ad</p>\r\n\r\n<p>as</p>\r\n\r\n<p>das</p>\r\n\r\n<p>d</p>"
+        },
+        {
+            "id": 5485,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Strategy Update"
+            },
+            "publish_by": {
+                "user_name": "Admin"
+            },
+            "created_by": null,
+            "modified_by": null,
+            "created_datetime": "2023-05-01T09:51:24.552003Z",
+            "modified_datetime": "2023-05-01T09:51:24.552028Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "13eeafdf-9837-402d-accc-b1c9eb2d51de",
+            "title": "Test article",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/Screenshot_from_2023-04-18_14-16-57.png",
+            "premium": false,
+            "summary": "<p>dasdsadads</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>dasd</p>\r\n\r\n<p>asd</p>\r\n\r\n<p>ad</p>\r\n\r\n<p>a</p>\r\n\r\n<p>das</p>\r\n\r\n<p>das</p>\r\n\r\n<p>das</p>\r\n\r\n<p>ds</p>\r\n\r\n<p>ad</p>"
+        },
+        {
+            "id": 5137,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Global"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Reports."
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": "Super Admin",
+            "created_datetime": "2023-04-27T09:19:53.488099Z",
+            "modified_datetime": "2023-04-28T09:02:52.438491Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "882ae1cb-1195-4e9e-98e5-e366cabd9d9a",
+            "title": "Article 06",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/finance1_9e5BMT2.jpeg",
+            "premium": false,
+            "summary": "<p><strong>fsefrw</strong></p>"
+        },
+        {
+            "id": 4918,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Strategy Update"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": null,
+            "created_datetime": "2023-04-27T09:18:49.434512Z",
+            "modified_datetime": "2023-04-27T09:18:49.434539Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "2fa2ea3c-1506-4ac8-bb42-2af739041cfd",
+            "title": "Article 05",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/finance1_NUNcVH1.jpeg",
+            "premium": false,
+            "summary": "<p>awadeaaWERQW</p>"
+        },
+        {
+            "id": 4683,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Daily"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": null,
+            "created_datetime": "2023-04-27T09:09:09.593040Z",
+            "modified_datetime": "2023-04-27T09:09:09.593072Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "728a6b5d-dc06-438f-a765-3ccf37916bb2",
+            "title": "Article 04",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/finance1_az4ytZR.jpeg",
+            "premium": false,
+            "summary": "<p>werwerwer</p>\r\n\r\n<p>werwe</p>\r\n\r\n<p>rew</p>\r\n\r\n<p>tew</p>\r\n\r\n<p>tw</p>\r\n\r\n<p>et</p>\r\n\r\n<p>wt</p>\r\n\r\n<p>&nbsp;</p>"
+        },
+        {
+            "id": 4465,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Daily"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": null,
+            "created_datetime": "2023-04-27T09:07:32.115698Z",
+            "modified_datetime": "2023-04-27T09:07:32.115726Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "bca57711-50df-437d-8f49-ce18dea0c0bf",
+            "title": "Article 03",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/finance1_BZDQ1Pc.jpeg",
+            "premium": false,
+            "summary": "<p>ewwqrwer</p>\r\n\r\n<p>r</p>\r\n\r\n<p>wer</p>\r\n\r\n<p>eqwr</p>\r\n\r\n<p>ew</p>\r\n\r\n<p>rwe</p>\r\n\r\n<p>ew</p>\r\n\r\n<p>rw</p>\r\n\r\n<p>e</p>"
+        },
+        {
+            "id": 4246,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Daily"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": null,
+            "created_datetime": "2023-04-27T09:06:52.941990Z",
+            "modified_datetime": "2023-04-27T09:06:52.942015Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "f3b74628-5edc-43fb-843a-34d37fa41308",
+            "title": "Article 03",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/finance1_bnxzbWm.jpeg",
+            "premium": false,
+            "summary": "<p>ewwqrwer</p>\r\n\r\n<p>r</p>\r\n\r\n<p>wer</p>\r\n\r\n<p>eqwr</p>\r\n\r\n<p>ew</p>\r\n\r\n<p>rwe</p>\r\n\r\n<p>ew</p>\r\n\r\n<p>rw</p>\r\n\r\n<p>e</p>"
+        },
+        {
+            "id": 4029,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Daily"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": null,
+            "created_datetime": "2023-04-27T09:05:37.706894Z",
+            "modified_datetime": "2023-04-27T09:05:37.706918Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "80ca390c-b2b5-401f-acc0-cbba18290e55",
+            "title": "Article 02",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/finance1_Bw8qZ8o.jpeg",
+            "premium": false,
+            "summary": "<p>wewqrewer</p>\r\n\r\n<p>werew</p>\r\n\r\n<p>re</p>\r\n\r\n<p>wr</p>\r\n\r\n<p>ewr</p>\r\n\r\n<p>&nbsp;</p>"
+        },
+        {
+            "id": 3812,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Daily"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": null,
+            "modified_by": null,
+            "created_datetime": "2023-04-27T09:03:14.490296Z",
+            "modified_datetime": "2023-04-27T09:03:14.490321Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "48b60bc7-ddfd-47a7-8843-94e74af5c377",
+            "title": "Article 01",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/Property_1Default_k7LARTR.png",
+            "premium": false,
+            "summary": "<p>dwqeqwe</p>\r\n\r\n<p>wqerw</p>\r\n\r\n<p>qrwe</p>\r\n\r\n<p>reqw</p>\r\n\r\n<p>tre</p>\r\n\r\n<p>wte</p>\r\n\r\n<p>t</p>\r\n\r\n<p>er</p>\r\n\r\n<p>tyry</p>\r\n\r\n<p>rty</p>\r\n\r\n<p>tr</p>\r\n\r\n<p>yrt</p>\r\n\r\n<p>y</p>\r\n\r\n<p>try</p>\r\n\r\n<p>rty</p>\r\n\r\n<p>rt</p>\r\n\r\n<p>yrt</p>\r\n\r\n<p>y</p>"
+        },
+        {
+            "id": 1620,
+            "sub_category": {
+                "article_category": {
+                    "category_name": "Indian 23"
+                },
+                "sub_category_name": "Nifty/Bank Nifty"
+            },
+            "article_tag": {
+                "article_tag": "Reports"
+            },
+            "publish_by": {
+                "user_name": "aston_admin"
+            },
+            "created_by": "Admin",
+            "modified_by": null,
+            "created_datetime": "2023-04-21T10:13:03.630847Z",
+            "modified_datetime": "2023-04-21T10:13:03.630876Z",
+            "is_active": true,
+            "is_deleted": false,
+            "uuid": "84a6c6ef-ec3d-4973-acd0-9c5706c77e17",
+            "title": "Testing Article",
+            "banner_image": "https://aston-stock.testyourapp.online/media/article_image/EI_TrXUSdl.jpg",
+            "premium": false,
+            "summary": "<p>asdsadasd</p>\r\n\r\n<p>sasf</p>\r\n\r\n<p>asf</p>\r\n\r\n<p>asf</p>\r\n\r\n<p>asf</p>\r\n\r\n<p>asfa</p>\r\n\r\n<p>sf</p>\r\n\r\n<p>asf</p>"
+        }
+        
+    ]
+}

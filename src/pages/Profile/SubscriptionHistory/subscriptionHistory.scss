@@ -1,0 +1,83 @@
+@import "../../../scss/base.scss";
+
+.subscription-history {
+    .subscription-listing {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .plan-item {
+            border: 2px solid $bg-color;
+            border-radius: 20px;
+            padding: 1rem 1rem;
+
+            h5 {
+                font-size: 1.25rem;
+                line-height: 1.5rem;
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            .plans-content {
+                display: flex;
+                flex-wrap: wrap;
+                row-gap: 2rem;
+
+                @include mobile {
+                    row-gap: 1rem;
+                }
+
+                .plan-details {
+                    width: calc(100% / 3);
+
+                    // align-self: center;
+                    p {
+                        margin-right: 10px;
+                    }
+
+                    @include mobile {
+                        width: calc(100% / 2);
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+[data-active=active] {
+    background: $light-blue;
+
+    h5 {
+        color: $logo-color;
+    }
+
+    .invoice-wrapper {
+        max-width: 210px;
+
+        button {
+            background: $logo-color;
+            @include smallmobile{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+[data-active=Inactive] {
+    h5 {
+        color: $color-primary;
+    }
+
+    .invoice-wrapper {
+        max-width: 210px;
+
+        button {
+            background: $color-primary;
+            @include smallmobile{
+                font-size: 14px;
+            }
+        }
+    }
+}

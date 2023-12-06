@@ -1,0 +1,37 @@
+@import "../../../scss/base.scss";
+
+.teams-section {
+  .team-members {
+    display: flex;
+    gap: 5rem;
+    width: 100%;
+    justify-content: center;
+
+    .image-container {
+      flex: 1;
+
+      &:nth-child(1) {
+        padding-left: 0;
+      }
+    }
+
+    @include mobile {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  }
+}
+
+.content-description {
+  margin: 1.25rem 0;
+
+  p {
+    @include fontRegular(1.5rem, 2rem, $bg-color);
+    text-align: justify;
+
+    @include mobile {
+      font-size: 1rem;
+      line-height: normal;
+    }
+  }
+}

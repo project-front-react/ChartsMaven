@@ -1,0 +1,140 @@
+{
+    "data": [
+        {
+            "created_datetime": "2023-04-20T13:40:34.628603Z",
+            "is_bookmarked": false,
+            "uuid": "6df61882-5961-49c1-b5de-b841b3603656",
+            "video_article_name": "Video 1015",
+            "video_tag": {
+                "tag_name": "Premium"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/10868612_3ja6afU.jpg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:40:29.903121Z",
+            "is_bookmarked": false,
+            "uuid": "e2375544-dcc9-4eb2-baff-75a34831847f",
+            "video_article_name": "Video 1014",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/law.jpg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:40:24.930608Z",
+            "is_bookmarked": false,
+            "uuid": "35aba53b-f6e0-4d35-9e4e-2328eeac4e07",
+            "video_article_name": "Video 1013",
+            "video_tag": {
+                "tag_name": "Premium"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_v2ppepH.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:40:19.833198Z",
+            "is_bookmarked": false,
+            "uuid": "e1ab946b-a4fc-47cd-9bb9-f07824bd5913",
+            "video_article_name": "Video 1012",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_hTGDe4C.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-21T13:40:14.262653Z",
+            "is_bookmarked": false,
+            "uuid": "62808965-6601-42ec-bf20-7110b7407e1a",
+            "video_article_name": "Video 1011",
+            "video_tag": {
+                "tag_name": "Premium"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_Iki2tec.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-22T13:40:09.026876Z",
+            "is_bookmarked": true,
+            "uuid": "72e1eb3b-f724-4fd8-ba9a-ba7e1c9ce47d",
+            "video_article_name": "Video 1010",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_RzECyVQ.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:40:03.082123Z",
+            "is_bookmarked": false,
+            "uuid": "c9cbc716-eca9-4a71-b726-7a8744d265e7",
+            "video_article_name": "Video 1009",
+            "video_tag": {
+                "tag_name": "Premium"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_3ljfgBz.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:39:57.711229Z",
+            "is_bookmarked": false,
+            "uuid": "e302855d-2a15-4796-9152-6d69d9eb0deb",
+            "video_article_name": "Video 1008",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_HdjdVOj.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:39:50.277554Z",
+            "is_bookmarked": false,
+            "uuid": "0481e5a7-c480-42e1-8e28-1c775c2fc0f6",
+            "video_article_name": "Video 1007",
+            "video_tag": {
+                "tag_name": "Premium"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_qz8C4iW.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:39:44.971744Z",
+            "is_bookmarked": true,
+            "uuid": "b2538cc3-f5a8-487e-b113-14728c4c7b90",
+            "video_article_name": "Video 1006",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_UJB7V3g.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:39:44.971744Z",
+            "is_bookmarked": true,
+            "uuid": "b2538cc3-f5a8-487e-b113-14728c4c7b90",
+            "video_article_name": "Video 1006",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_UJB7V3g.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:39:44.971744Z",
+            "is_bookmarked": true,
+            "uuid": "b2538cc3-f5a8-487e-b113-14728c4c7b90",
+            "video_article_name": "Video 1006",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_UJB7V3g.jpeg"
+        },
+        {
+            "created_datetime": "2023-04-20T13:39:44.971744Z",
+            "is_bookmarked": true,
+            "uuid": "b2538cc3-f5a8-487e-b113-14728c4c7b90",
+            "video_article_name": "Video 1006",
+            "video_tag": {
+                "tag_name": "YouTube Video"
+            },
+            "video_thumbnail": "https://aston-stock.testyourapp.online/media/video_thumbnail/finance1_UJB7V3g.jpeg"
+        }
+    ],
+    "status": true,
+    "total_page": 2,
+    "video_tag": [
+        "Premium",
+        "YouTube Video"
+    ]
+}

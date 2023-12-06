@@ -1,0 +1,139 @@
+@import '../../../scss/base.scss';
+
+.sliderContainer {
+    width: 100%;
+    color: $bg-color;
+
+    .Slider {
+        width: 100%;
+
+        .sliderbox {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .sliderWraper {
+                background-color: #E8F4FF;
+
+                .imgquots {
+                    height: 15px;
+                    margin: 10px;
+                    @include midmobile{
+                        height: 12px;
+                    }
+                    @include smallmobile {
+                        height: 10px;
+                    }
+                }
+
+                .sliderContent {
+                    margin-left: 2rem;
+                    margin-top: 5px;
+                    width: 70%;
+
+
+                    .sliderTitle {
+                        font-size: 1.2em;
+                        color: $bg-color;
+                        font-weight: 700;
+                        @include midmobile{
+                            font-size: 1.1em;
+                        }
+                        @include smallmobile {
+                            font-size: 1em;
+                        }
+                    }
+
+                    .sliderData {
+                        margin-top: 1rem;
+                        max-width: 100%;
+                        @include midmobile{
+                            margin-top: 0.5rem;
+                            font-size: 0.9em;
+                        }
+                        @include smallmobile {
+                            margin-top: 0.2rem;
+                            font-size: 0.7em;
+                        }
+                    }
+
+                    .sliderNameData {
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: end;
+                        flex-direction: column;
+                        width: 100%;
+                        margin-top: 1rem;
+                        color: $bg-color;
+                        @include midmobile{
+                            margin-top: 0.5rem;
+                        }
+                        @include smallmobile {
+                            margin-top: 0.2rem;
+                        }
+
+                        p {
+                            margin: 0px;
+                            font-size: 1.2em;
+                            font-weight: 700;
+                            @include midmobile{
+                                font-size: 1em;
+                            }
+                            @include smallmobile {
+                                font-size: 1em;
+                            }
+                        }
+
+                        div {
+                            @include smallmobile {
+                                font-size: 0.8em;
+                            }
+                            @include midmobile{
+                                font-size: 0.9em;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .imgContainer {
+                height: 350px;
+                position: relative;
+                right: 110px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                @include mobile{
+                    right: 80px;
+                    height: 300px;
+                }
+                @include midmobile{
+                    right: 70px;
+                    height: 250px;
+                }
+                @include smallmobile {
+                    right: 50px;
+                    height: 200px;
+                }
+
+                .imgWraper {
+                    height: 300px;
+                    width: 300px;
+                    @include mobile {
+                        height: 200px;
+                    width: 200px; 
+                    }
+                    @include midmobile {
+                        height: 120px;
+                    width: 120px; 
+                    }
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}

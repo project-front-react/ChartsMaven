@@ -1,0 +1,66 @@
+@import '../../../scss/base.scss';
+
+.dataSet {
+    display: flex;
+    justify-content: center;
+
+    .gridSlider {
+        display: grid;
+        width: 100%;
+        max-width: 80%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        @include tablet{
+            max-width: 75%;
+        }
+        @include mobile{
+            max-width: 70%;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+
+        @include tabletNew {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+        }
+
+        @include midmobile {
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            max-width: 70%;
+        }
+
+        .horizontal-card {
+            background-color: #E8F4FF;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+
+            .icon-wrapper {
+                max-width: 35px;
+                width: 100%;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            h3 {
+                @include fontBold(1.25rem, 2rem, $bg-color);
+                margin-bottom: unset;
+
+                @include mobile {
+                    font-size: 1rem;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

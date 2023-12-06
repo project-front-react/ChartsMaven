@@ -1,0 +1,75 @@
+@import '../../../scss/base.scss';
+
+.web-footer {
+    background-color: $black-color;
+    width: 100%;
+    color: $white-color;
+
+    .FooterCopySection {
+        display: flex;
+        width: 100%;
+        margin-top: 0px;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+
+    .footerSection {
+        padding: 8rem 0 0rem 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        @include tablet{
+        grid-template-columns: repeat(3, 1fr);
+        }
+        @include mobile {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+            padding: 9rem 0 1.5rem 0;
+        }
+        @include midmobile{
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 20px;
+        }
+        @include smallmobile {
+            grid-template-columns: repeat(1, 1fr);
+            grid-row-gap: 20px;
+        }
+
+        .socialDetail {
+            margin: 0px;
+            padding: 0px;
+
+            @include mobile {
+                font-size: 0.9em;
+                margin-bottom: 0.5rem;
+            }
+
+            .titleBorder {
+                border-bottom: 1px solid $white-color;
+                font-weight: 700;
+                padding-bottom: 10px;
+            }
+
+            .footerDetail {
+                padding-left: unset;
+                margin-top: 1rem;
+
+                li {
+                    padding: 0.5rem 0;
+                }
+            }
+
+            .imgdata {
+                margin-top: 20px;
+display: flex;
+                img {
+                    height: 30px;
+                    margin-right: 1rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

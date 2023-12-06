@@ -1,0 +1,31 @@
+@import "../assets/fonts/font.scss";
+//fonts
+$satoshi-regular: "Satoshi-Regular";
+
+//colors
+$bg-color: #040e47;
+$color-primary: #ea0a3b;
+$white-color: #ffffff;
+$black-color: #000000;
+$logo-color: #009444;
+$transparent: transparent;
+$light-blue: #e8f4ff;
+$yellow-color: #ff9900;
+$grey-color: #828282;
+
+// media breakpoints
+$xxs-min-width: 425px;
+$xxxs-max-width: 425px;
+$xxs-max-width: 576px;
+$xs-min-width: 577px;
+$xs-max-width: 767px;
+//max-width changed from 767 to 768 for about section
+$sm-min-width: 767px;
+$sm-max-width: 991px;
+$md-min-width: 992px;
+$mdd-min-width: 1025px;
+$mdd-max-width: 1024px;
+$md-max-width: 1199px;
+$lg-min-width: 1200px;
+$lg-max-width: 1440px;
+$xlg-min-width: 1441px;

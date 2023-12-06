@@ -1,0 +1,119 @@
+@import "../../scss/base.scss";
+
+.loaderWrap {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $white-color;
+  background: transparent;
+
+  @include mobile {
+    height: 100%;
+    min-height: 130px;
+  }
+
+  .loaderDotSpin {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: transparent;
+    box-shadow: 0 -18px 0 0 $logo-color,
+      12.727926px -12.727926px 0 0 $logo-color, 18px 0 0 0 $logo-color,
+      12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0),
+      0 18px 0 0 rgba(152, 128, 255, 0),
+      -12.727926px 12.727926px 0 0 rgba(152, 128, 255, 0),
+      -18px 0 0 0 rgba(152, 128, 255, 0),
+      -12.727926px -12.727926px 0 0 rgba(152, 128, 255, 0);
+    animation: dot-spin 1.5s infinite linear;
+  }
+
+  @keyframes dot-spin {
+
+    0%,
+    100% {
+      box-shadow: 0 -18px 0 0 $logo-color,
+        12.727926px -12.727926px 0 0 $logo-color, 18px 0 0 0 $logo-color,
+        12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        0 18px 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        -18px 0 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+    }
+
+    12.5% {
+      box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+        12.727926px -12.727926px 0 0 $logo-color, 18px 0 0 0 $logo-color,
+        12.727926px 12.727926px 0 0 $logo-color,
+        0 18px 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        -18px 0 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+    }
+
+    25% {
+      box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+        12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+        18px 0 0 0 $logo-color, 12.727926px 12.727926px 0 0 $logo-color,
+        0 18px 0 0 $logo-color,
+        -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        -18px 0 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+    }
+
+    37.5% {
+      box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+        12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+        18px 0 0 -5px rgba(152, 128, 255, 0),
+        12.727926px 12.727926px 0 0 $logo-color, 0 18px 0 0 $logo-color,
+        -12.727926px 12.727926px 0 0 $logo-color,
+        -18px 0 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+    }
+
+    50% {
+      box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+        12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+        18px 0 0 -5px rgba(152, 128, 255, 0),
+        12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        0 18px 0 0 $logo-color, -12.727926px 12.727926px 0 0 $logo-color,
+        -18px 0 0 0 $logo-color,
+        -12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0);
+    }
+
+    62.5% {
+      box-shadow: 0 -18px 0 -5px rgba(152, 128, 255, 0),
+        12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+        18px 0 0 -5px rgba(152, 128, 255, 0),
+        12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        0 18px 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px 12.727926px 0 0 $logo-color, -18px 0 0 0 $logo-color,
+        -12.727926px -12.727926px 0 0 $logo-color;
+    }
+
+    75% {
+      box-shadow: 0 -18px 0 0 $logo-color,
+        12.727926px -12.727926px 0 -5px rgba(152, 128, 255, 0),
+        18px 0 0 -5px rgba(152, 128, 255, 0),
+        12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        0 18px 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        -18px 0 0 0 $logo-color, -12.727926px -12.727926px 0 0 $logo-color;
+    }
+
+    87.5% {
+      box-shadow: 0 -18px 0 0 $logo-color,
+        12.727926px -12.727926px 0 0 $logo-color,
+        18px 0 0 -5px rgba(152, 128, 255, 0),
+        12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        0 18px 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px 12.727926px 0 -5px rgba(152, 128, 255, 0),
+        -18px 0 0 -5px rgba(152, 128, 255, 0),
+        -12.727926px -12.727926px 0 0 $logo-color;
+    }
+  }
+}

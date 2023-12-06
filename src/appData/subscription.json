@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "subscription_month": "1 Month",
+            "subscription_expiry": "13/05/2023",
+            "subscription_price": "900"
+        },
+        {
+            "subscription_month": "3 Months",
+            "subscription_expiry": "13/07/2023",
+            "subscription_price": "2550"
+        },
+        {
+            "subscription_month": "6 Months",
+            "subscription_expiry": "13/09/2023",
+            "subscription_price": "4500"
+        },
+        {
+            "subscription_month": "1 Year",
+            "subscription_expiry": "13/05/2024",
+            "subscription_price": "8400"
+        }
+    ]
+}

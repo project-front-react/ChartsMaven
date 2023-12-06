@@ -1,0 +1,53 @@
+@import '../../scss/base.scss';
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .btn-data{
+        // margin: 1rem;
+        width: 100%;
+        background-color: white;
+       display: flex;
+       justify-content: flex-end;
+    }
+
+    .modalMainContainer {
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: $bg-color;
+        }
+
+        .input-Data{
+            margin-top: 1.5rem;
+            max-width: 300px;
+            width: 100%;
+            background-color: $bg-color;
+            border-radius: 5px;
+            padding: 10px 10px;
+            color: white;
+        }
+
+        .btnData{
+            background-color: $color-primary;
+            padding: 5px 15px;
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            border-radius: 5px;
+
+            .btn{
+            color: $white-color;
+            border: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import "../../scss/base.scss";
+.noArticleContainer {
+    display: flex;
+    width: 100% !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    .imageWrapper {
+        height: 150px;
+        width: 150px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+
+        }
+    }
+
+    .noData {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        @include tablet{
+            font-size: 1.5rem;
+        }
+    }
+
+}

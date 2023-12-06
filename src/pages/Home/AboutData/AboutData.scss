@@ -1,0 +1,119 @@
+@import "../../../scss/base.scss";
+
+.about-details {
+    display: flex;
+    padding: 2rem 0;
+    @include tablet{
+        flex-direction: column;
+    }
+
+    .total-years-section {
+        flex: 3;
+        display: flex;
+        @include tablet{
+            flex-direction: column;
+        }
+
+        .years-number {
+           position: relative;
+           @include tablet{
+               text-align: center;
+            }
+            img{
+             min-height:290px;
+             @include mobile{
+                max-width: 200px;
+                min-height: 200px;
+             }
+            }
+            &::before{
+                content: attr(data-years);
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                transform: translate(50%, -50%);
+                @include fontBold(8rem,10.8rem,$bg-color);
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                @include mobile{
+                    font-size: 6rem;
+                }
+            }
+        }
+
+        .years-content {
+            flex: 2;
+            padding:1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h5 {
+                @include fontMedium(2rem, 2.6rem, $bg-color);
+                margin-bottom: unset;
+                @include tablet{
+                    text-align: center;
+
+                }
+                @include mobile{
+                    font-size: 1.25rem;
+                    line-height:normal;
+                    text-align: center;
+                }
+            }
+
+            p {
+                @include fontMedium(1.5rem, 2rem, $logo-color);
+                margin-bottom: unset;
+                @include tablet{
+                    text-align: center;
+
+                }
+                @include mobile {
+                        font-size: 1rem;
+                        line-height: normal;
+                        text-align: center;
+                    }
+
+            }
+        }
+    }
+
+    .about-content {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .description {
+            p {
+                @include fontRegular(1.5rem, 2rem, $bg-color);
+                @include mobile{
+                    font-size:1rem;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .btn-link {
+            text-decoration: none;
+            background: $transparent;
+            @include fontMedium(1.5rem, 2rem, $color-primary);
+            height: 30px;
+            @include mobile{
+                font-size: 1rem;
+                line-height: normal;
+            }
+
+            &::before {
+                // content: url('../../../assets/images/Arrow.png');
+                content: url('../../../assets/images/ArrowSvg.svg');
+                vertical-align: middle;
+                margin-right: 0.5rem;
+                @include mobile{
+                    max-width: 20px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,186 @@
+@import "../../scss/base.scss";
+
+.OtpMainComponent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bg-color;
+  margin: 0 auto;
+  max-width: 500px;
+
+  @include mobile {
+    max-width: 500px;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700 !important;
+    font-family: $satoshi-regular !important;
+    margin-top: 1rem;
+    font-size: 2rem;
+
+    @include tablet {
+      font-size: 1.5rem;
+    }
+
+    @include mobile {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      padding: 0;
+    }
+
+    @include midmobile {
+      // margin: 20px;
+      font-size: 1.2rem;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainContent {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+
+
+    @include mobile {
+      margin-top: 1rem;
+      padding: 1rem;
+      max-width: 90%;
+    }
+
+    @include mobile {
+      justify-content: center;
+    }
+    p {
+      margin: 0;
+      width: 100%;
+      font-size: 12px;
+      display: flex;
+      align-items: unset;
+      justify-content: flex-start;
+
+      @include smallmobile {
+        width: 100%;
+        max-width: 100%;
+        padding: unset;
+      }
+    }
+  }
+
+  .otpEXMain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // padding: 0 10px;
+
+
+    .otpExData {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      font-size: 12px;
+      max-width: 70%;
+      margin-top: 10px;
+      @include mobile{
+        margin-top: unset;
+      }
+
+      p:last-child {
+        color: $color-primary;
+      }
+
+      >div {
+        cursor: pointer;
+      }
+
+      .otpResend {
+        color: $color-primary;
+      }
+
+      @include mobile {
+        max-width: 90%;
+      }
+    }
+
+    @include mobile {
+      width: 100%;
+      padding: 0 1rem;
+
+    }
+
+  }
+
+  .btnData{
+ max-width: fit-content;
+ min-width: 140px;
+ width: 100%;
+ margin-top: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ // border: 5px solid green;
+ @include midmobile {
+   padding: 0 10px;
+   max-width: max-content;
+ }
+
+ @include smallmobile {
+   padding: 0 4rem;
+   max-width: max-content;
+ }
+
+    button {
+      width: 100%;
+      min-width: 240px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // padding: 0.5rem 1rem;
+      background: $color-primary;
+      @include fontBold(1rem, 2rem, $white-color);
+
+      @include midmobile {
+        // padding: 20px;
+        font-size: 14px;
+      }
+
+      @include smallmobile {
+        height: 40px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .errorOtp{
+    width: 100%;
+    // margin-left: 10px;
+    margin-top: 8px;
+    @include fontRegular(1rem, 1.25rem, $color-primary);
+  }
+}
+.registerData {
+  font-size: 0.9em;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  button{
+    background-color: transparent;
+  }
+  .span {
+      color: $color-primary;
+      margin-left: 5px;
+  }
+}

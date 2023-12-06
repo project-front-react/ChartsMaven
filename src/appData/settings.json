@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "name": "Download Over WiFi Only",
+      "setting": "true"
+    },
+    {
+      "name": "Promotions",
+      "setting": "false"
+    }
+  ]
+}

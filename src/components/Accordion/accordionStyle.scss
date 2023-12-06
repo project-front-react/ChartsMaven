@@ -1,0 +1,86 @@
+@import "../../scss/base.scss";
+
+.rc-accordion-card {
+    border: 1px solid $bg-color;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    .rc-accordion-toggle {
+        display: flex;
+        align-items: flex-start;
+        cursor: pointer;
+        justify-content: space-between;
+        background-color: $white-color;
+        transition: 0.3s;
+
+    }
+
+    .active {
+        background-color: $bg-color;
+
+        .rc-accordion-icon {
+            transform: rotate(180deg);
+        }
+    }
+
+    &::last-child {
+        margin-bottom: 0;
+    }
+
+    .rc-accordion-title {
+        @include fontBold(1.5rem, 2.25rem, $bg-color);
+        margin-bottom: 0;
+        transition: 0.3s;
+        position: relative;
+
+        @include mobile {
+            font-size: 1rem;
+            line-height: normal;
+        }
+    }
+
+    .rc-accordion-toggle.active .rc-accordion-title {
+        color: $white-color;
+    }
+}
+
+.rc-accordion-icon {
+    position: relative;
+    top: 2px;
+    transition: 0.35s;
+
+    img {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+.rc-collapse {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+
+    .rc-accordion-body {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0 1rem 2rem;
+        background: $bg-color;
+
+        p {
+            @include fontRegular(1.25rem, 1.75rem, $white-color);
+            margin-bottom: 0;
+            letter-spacing: 0.02em;
+
+            @include mobile {
+                font-size: 0.8rem;
+                line-height: normal;
+            }
+        }
+    }
+
+    .show {
+        height: auto;
+    }
+}

@@ -1,0 +1,35 @@
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  
+    &:hover {
+      background-color:red;
+    }
+  
+    &.left-arrow {
+      left: 25px;
+      height: 30px;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+  
+    &.right-arrow {
+      right: 20px;
+      transform: translate(50%, -50%) rotate(-135deg);
+      height: 30px;
+
+    }
+  
+    &.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+  

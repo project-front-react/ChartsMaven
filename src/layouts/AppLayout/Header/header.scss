@@ -1,0 +1,72 @@
+@import "../../../scss/base.scss";
+
+.heroBanner-section {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background-position: 70% 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include mobile {
+        min-height: 200px;
+    }
+
+    .heroBanner-content {
+        h1 {
+            text-transform: capitalize;
+        }
+
+        .breadcrumbs {
+            display: flex;
+            padding: unset;
+
+            .breadcrumb-item {
+                margin: 0 5px;
+                @include fontRegular(2rem, 2.5rem, $white-color);
+
+                @include mobile {
+                    font-size: 1.2rem;
+                    line-height: normal;
+                }
+
+                text-transform: capitalize;
+                cursor: pointer;
+
+                &:nth-last-child(1) {
+                    &::before {
+                        content: url("../../../assets/images/arrowIcon.svg");
+                        margin: 0 1rem;
+                    }
+                }
+            }
+
+            .breadcrumb-data {
+                display: flex;
+                width: 100%;
+                max-width: fit-content;
+                // margin: 0 10px;
+
+                @include fontRegular(2rem, 2.5rem, $white-color);
+
+                @include mobile {
+                    font-size: 1.2rem;
+                    line-height: normal;
+                }
+
+                text-transform: capitalize;
+                cursor: pointer;
+
+                &::before {
+                    content: url("../../../assets/images/arrowIcon.svg");
+
+                    @include mobile {
+                        margin: 4px 0rem;
+                    }
+                }
+
+            }
+        }
+    }
+}

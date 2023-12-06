@@ -1,0 +1,65 @@
+@import "../../../scss/base.scss";
+
+.zLayout-wrapper {
+    max-width: 100%;
+    margin: auto;
+
+    .zLayout-content {
+        display: flex;
+        gap: 1rem;
+        margin: 3rem 0;
+
+        @include tablet {
+            flex-direction: column;
+            margin: 1rem 0;
+        }
+
+        .content-left {
+            flex: 1;
+            padding: 1rem;
+            padding-left: unset;
+
+            .content-description {
+                margin: 1.25rem 0;
+
+                h2 {
+                    @include fontBold(1.5rem, 2rem, $color-primary);
+
+                    @include mobile {
+                        font-size: 1rem;
+                        line-height: normal;
+                    }
+                }
+
+                p {
+                    @include fontRegular(1.5rem, 2rem, $bg-color);
+                    text-align: justify;
+
+                    @include mobile {
+                        font-size: 1rem;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        .content-right {
+            flex: 1;
+            margin-right: 3rem;
+            @include tablet{
+                margin-bottom: 2rem;
+            }
+            // padding: 1rem 1rem 0rem 1rem;
+        }
+    }
+
+    .zLayout-content:nth-child(even) {
+        .content-left {
+            order: 2;
+
+            @include tablet {
+                order: unset;
+            }
+        }
+    }
+}

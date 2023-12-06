@@ -1,0 +1,153 @@
+@import "../../scss/base.scss";
+
+.subscription-section {
+  margin: 2rem 0;
+
+  .subs-listing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+    @include mobile {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    gap: 1rem;
+    row-gap: 2rem;
+
+    .selected {
+      background: $logo-color !important;
+      color: $white-color;
+
+      h6,
+      span,
+      p,
+      .price {
+        color: $white-color !important;
+      }
+    }
+
+    .subs-item {
+      min-height: 200px;
+      display: flex;
+      background: $white-color;
+      border: 1px solid $bg-color;
+      border-radius: 20px;
+      padding: 1rem;
+      justify-content: space-between;
+
+      @include mobile {
+        min-height: 150px;
+      }
+      @include smallmobile{
+        flex-direction: column;
+      }
+
+      .sub-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .subs-title {
+          display: flex;
+          align-items: center;
+
+          h6 {
+            @include fontBold(2rem, 2.5rem, $logo-color);
+            letter-spacing: 0.02em;
+
+            @include mobile {
+              font-size: 1.5rem;
+            }
+
+            span {
+              @include fontRegular(1.25rem, 1.5rem, $logo-color);
+
+              @include mobile {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+
+        .subs-expiry {
+          max-width: 237px;
+
+          @include mobile {
+            max-width: unset;
+          }
+
+          p {
+            margin-bottom: 0;
+            @include fontRegular(1.25rem, 1.5rem, $bg-color);
+
+            @include mobile {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+
+    .subs-price {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .subs-wrapper {
+        min-width: 121px;
+        width: 100%;
+        text-align: center;
+        @include smallmobile{
+          min-width: 121px;
+          display: flex;
+          justify-content: center;
+          // max-width: 121px;
+          // width: 100%;
+        }
+        img {
+          height: 40px;
+          width: 40px;
+        }
+
+        button {
+          width: 100%;
+         
+          @include fontBold(1rem, 1.5rem, $white-color);
+
+          @include mobile {
+            font-size: 0.8rem;
+            max-width: 121px;
+          }
+        }
+      }
+
+      .price {
+        @include fontBold(2rem, 2.25rem, $bg-color);
+        margin-top: auto;
+
+        @include mobile {
+          font-size: 1.5rem;
+        }
+      
+      }
+      #priceOrder{
+        @include smallmobile{
+          order: 2 !important;
+        }
+      }
+    }
+  }
+
+  .pay-btn {
+    margin: 3rem 0;
+    max-width: 334px;
+    margin-inline: auto;
+
+    // button {
+    // }
+  }
+}
+.disabled {
+  opacity: 0.8;
+  pointer-events: none;
+}

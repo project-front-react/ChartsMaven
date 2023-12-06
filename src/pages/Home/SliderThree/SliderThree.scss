@@ -1,0 +1,170 @@
+@import '../../../scss/base.scss';
+
+.sliderContainer {
+    width: 100%;
+    color: $bg-color;
+
+}
+.testimonial-slider {
+    width: 100%;
+    margin: 2.5rem 0;
+
+    .sliderBox {
+        display: flex;
+        width: 95%;
+        // margin-left: 7px;
+        justify-content: center;
+        position: relative;
+        background-color: $light-blue;
+        padding: 2rem 1rem;
+        @include mobile{
+            height: 410px;
+            flex-direction: column;
+        margin-left: 15px;
+        }
+        @include midmobile {
+            margin-left: 10px;
+        }
+        @include smallmobile{
+            padding: unset;
+        margin-left: 7px;
+        }
+
+        .sliderWrapper {
+        
+            .quotes-icon {
+                max-width: 30px;
+                margin: 10px;
+                @include mobile{
+                    max-width: 20px;
+                }
+                @include smallmobile{
+                    max-width: 15px;
+                }
+               
+            }
+
+            .sliderContent {
+                padding:0 2.5rem;
+                margin-top: 5px;
+                width: 100%;
+                @include mobile{
+                    padding: 0 1rem;
+                    width: 100%;
+                }
+
+                .sliderTitle {
+                    @include fontBold(1.5rem,2rem,$bg-color);
+                    @include midmobile{
+                        font-size: 1rem;
+                    }
+                    @include smallmobile {
+                        font-size: 1rem;
+                    }
+                }
+
+                .sliderDescription {
+                    margin-top: 1rem;
+                    max-width: 100%;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 6;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    @include midmobile{
+                        margin-top: 0.5rem;
+                        font-size: 0.9em;
+                    }
+                    @include smallmobile {
+                        margin-top: 0.2rem;
+                        font-size: 0.7em;
+                    }
+                }
+
+                .authorDetails {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: end;
+                    flex-direction: column;
+                    width: 100%;
+                    margin-top: 1rem;
+                    color: $bg-color;
+                    @include midmobile{
+                        margin-top: 0.5rem;
+                    }
+                    @include smallmobile {
+                        margin-top: 0.2rem;
+                    }
+                    .name{
+                        font-weight: 900;
+                        font-size: 1.5em;
+                        @include midmobile{
+                            font-size: 1rem;
+                        }
+                    }
+                    p {
+                        margin: 0px;
+                        font-size: 1.2em;
+
+                        @include midmobile{
+                            font-size: 1em;
+                        }
+                        @include smallmobile {
+                            font-size: 1em;
+                        }
+                    }
+
+                    div {
+                        @include smallmobile {
+                            font-size: 0.8em;
+                        }
+                        @include midmobile{
+                            font-size: 0.9em;
+                        }
+                    }
+                }
+            }
+        }
+
+        .imgContainer {
+            height: 350px;
+            position: relative;
+            right: -5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include mobile{
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                height: unset;
+            }
+            @include midmobile{
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                height: unset;
+            }
+            @include smallmobile {
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                height: unset;
+            }
+
+            .profile-wrapper-slider {
+                max-width: 300px;
+                min-width: 300px;
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+                @include mobile{
+                    max-width: 100px;
+                    min-width: unset;
+                }
+            }
+        }
+    }
+}

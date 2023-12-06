@@ -1,0 +1,56 @@
+@import '../../../scss/base.scss';
+.SupportMainLayout{
+    display: flex;
+.supportLayout{
+    width: calc(100/2);
+    margin-right: 10px;
+
+    .imgWrapper{
+        height: 70px;
+        width: 70px;
+        @include mobile{
+            height: 60px;
+            width: 60px;
+        }
+        @include midmobile{
+            height: 50px;
+            width: 50px;
+        }
+        @include smallmobile{
+            height: 40px;
+            width: 40px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .contentData{
+        font-size: 13px;
+        line-height: 18px;
+        @include mobile{
+            font-size: 11px;
+        line-height: 15px;
+        }
+        @include midmobile{
+            font-size: 9px;
+        line-height: 13px;
+        }
+        
+    }
+    h6{
+        font-size: 16px;
+        color: $color-primary;
+        font-weight: 700;
+        @include midmobile{
+            font-size: 14px;
+        }
+        @include smallmobile{
+            font-size: 11px;
+        }
+    }
+}
+
+}

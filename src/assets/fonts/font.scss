@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('./font/Satoshi-Bold.eot');
+    src: 
+        url('./font/Satoshi-Bold.woff2') format('woff2'),
+        url('./font/Satoshi-Bold.woff') format('woff'),
+        url('./font/Satoshi-Bold.ttf') format('truetype'),
+        url('./font/Satoshi-Bold.svg#Satoshi-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('./font/Satoshi-Medium.eot');
+    src: 
+        url('./font/Satoshi-Medium.woff2') format('woff2'),
+        url('./font/Satoshi-Medium.woff') format('woff'),
+        url('./font/Satoshi-Medium.ttf') format('truetype'),
+        url('./font/Satoshi-Medium.svg#Satoshi-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('./font/Satoshi-Regular.eot');
+    src: 
+        url('./font/Satoshi-Regular.woff2') format('woff2'),
+        url('./font/Satoshi-Regular.woff') format('woff'),
+        url('./font/Satoshi-Regular.ttf') format('truetype'),
+        url('./font/Satoshi-Regular.svg#Satoshi-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
